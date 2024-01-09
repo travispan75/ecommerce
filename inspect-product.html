@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Ecommerce Website - Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/plant%20(1).png">
+</head>
+
+<body>
+    <section id="header">
+        <a href="#" class="logo"><img src="images/logo.png" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li>
+                    <form style="display: inline" action="cart.html" method="get">
+                        <input class="btn" type="image" src="images/shopping-bag.png" alt="Submit" onmouseover="this.src='images/shopping-bag2.png'"
+                        onmouseout="this.src='images/shopping-bag.png'">
+                    </form>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="product-details" class="section-p1">
+        <div class="single-product-image">
+            <img src="images/products/PrayerPlant4inweb.png" style="width:100%;padding:55px" id="main-image" alt="">
+            <img src="images/1280px-HD_transparent_picture.png" id="product-details-pot" alt="" style="-webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -o-user-select: none; user-select: none;">
+            <div class="product-wheel">
+                <div class="image-col image-col1">
+                    <img src="images/pots/FrancoWhite4inBottom.webp" style="width:50px;" class="small-image" alt="">
+                </div>
+                <div class="image-col image-col2">
+                    <img src="images/pots/WhiteFreyaPotBOTTOM.webp" style="width:50px;" class="small-image" alt="">
+                </div>
+                <div class="image-col image-col3">
+                    <img src="images/pots/MirandaGrey4inBottom.webp" style="width:50px;" class="small-image" alt="">
+                </div>
+                <div class="image-col image-col4">
+                    <img src="images/pots/Isaacmattedarkgerybottom.webp" style="width:50px;" class="small-image" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="single-product-details">
+            <div id="single-product-details1">
+                <div id="single-product-details1-left">
+                    <h6>Summer Collection</h6>
+                    <h4>Red Prayer Plant</h4>
+                    <h2>$22.00</h2>
+                    <div id="total-price"><span>Total:</span><h2 id="single-product-details1-left-price">$22.00</h2></div>
+                    <input type="number" value="1" min="1" max="9" id="product-quantity" onkeydown="return false">
+                    <button class="standard-button">Add To Cart</button>
+                </div>
+                <div class="checkbox1">
+                    <h2>Complete the set!</h2>
+                    <label class="checkbox-button">
+                        <input type="checkbox" class="checkbox-button__input" id="soil-enhancer">
+                        <span class="checkbox-button__control"></span>
+                        <span class="checkbox-button__label">Marphyl<sup>TM</sup> Soil Enhancer</span>
+                        <span class="price-tag">14.25</span>
+                    </label>
+                    <label class="checkbox-button">
+                        <input type="checkbox" class="checkbox-button__input" id="probiotic">
+                        <span class="checkbox-button__control"></span>
+                        <span class="checkbox-button__label">Bios<sup>TM</sup> Plant Probiotic</span>
+                        <span class="price-tag">11.40</span>
+                    </label>
+                    <label class="checkbox-button">
+                        <input type="checkbox" class="checkbox-button__input" id="fertilizer-3">
+                        <span class="checkbox-button__control"></span>
+                        <span class="checkbox-button__label">Signature Fertilizer 3L</span>
+                        <span class="price-tag">13.30</span>
+                    </label>
+                    <label class="checkbox-button">
+                        <input type="checkbox" class="checkbox-button__input" id="fertilizer-7.5">
+                        <span class="checkbox-button__control"></span>
+                        <span class="checkbox-button__label">Signature Fertilizer 7.5L</span>
+                        <span class="price-tag">23.75</span>
+                    </label>
+                </div>
+            </div>
+            <div id="single-product-details2">
+                <h2>Product Details</h2>
+                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fermentum eleifend bibendum. Nulla tincidunt tristique metus, sed fringilla sapien vehicula nec. Vivamus feugiat mi eu elit aliquet, id imperdiet mauris volutpat. Integer ac lacus vel turpis vulputate scelerisque non eget risus. Morbi consectetur nunc et velit bibendum, nec vulputate justo fermentum. Aenean dictum, quam eu finibus cursus, erat ligula blandit lectus, et efficitur justo ipsum at velit. Suspendisse potenti.</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="product-1" class="section-p1 product1 inspect-product">
+        <h2>Featured Products</h2>
+        <p>Summer Collection</p>
+        <div class="pro-container">
+            <div class="pro" onclick="window.location.href='inspect-product.html'">
+                <div class="product">
+                    <img src="images/Products/BirdofParadiseXXLweb.png" alt="">
+                </div>
+                <div class="description">
+                    <span><i>Strelitzia nicolai</i></span>
+                    <h5>Cranerys</h5>
+                    <div class="size">
+                        <h6 class="height"><img src="images/height.png"  alt=""> 125 cm tall</h6>
+                        <h6 class="height"><img src="images/width.png"  alt=""> 27 cm pot</h6>
+                    </div>
+                    <div class="price">
+                        <div class="price-number"> 
+                            <h5 class="dollar">$179</h5>
+                            <h5 class="cent">00</h5>
+                        </div>
+                        <div class="cart-button">
+                            <form style="display: inline" action="cart.html" method="get">
+                                <input class="btn" type="image" src="images/shopping-cart.png" alt="button">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pro" onclick="window.location.href='inspect-product.html'">
+                <div class="product">
+                    <img src="images/Products/peacelily4in.png" alt="">
+                </div>
+                <div class="description">
+                    <span><i>Spathiphyllum</i></span>
+                    <h5>Peace Lily</h5>
+                    <div class="size">
+                        <h6 class="height"><img src="images/height.png"  alt=""> 45 cm tall</h6>
+                        <h6 class="height"><img src="images/width.png"  alt=""> 10 cm pot</h6>
+                    </div>
+                    <div class="price">
+                        <div class="price-number"> 
+                            <h5 class="dollar">$17</h5>
+                            <h5 class="cent">00</h5>
+                        </div>
+                        <div class="cart-button">
+                            <form style="display: inline" action="cart.html" method="get">
+                                <input class="btn" type="image" src="images/shopping-cart.png" alt="button">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pro" onclick="window.location.href='inspect-product.html'">
+                <div class="product">
+                    <img src="images/Products/Aloe4inweb.png" alt="">
+                </div>
+                <div class="description">
+                    <span><i>Aloe vera</i></span>
+                    <h5>Aloe Vera</h5>
+                    <div class="size">
+                        <h6 class="height"><img src="images/height.png"  alt=""> 23 cm tall</h6>
+                        <h6 class="height"><img src="images/width.png"  alt=""> 10 cm pot</h6>
+                    </div>
+                    <div class="price">
+                        <div class="price-number"> 
+                            <h5 class="dollar">$18</h5>
+                            <h5 class="cent">00</h5>
+                        </div>
+                        <div class="cart-button">
+                            <form style="display: inline" action="cart.html" method="get">
+                                <input class="btn" type="image" src="images/shopping-cart.png" alt="button">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pro" onclick="window.location.href='inspect-product.html'">
+                <div class="product">
+                    <img src="images/Products/ArecaPalm4in.png" alt="">
+                </div>
+                <div class="description">
+                    <span><i>Chrysalidocarpus lutescens</i></span>
+                    <h5>Areca Palm</h5>
+                    <div class="size">
+                        <h6 class="height"><img src="images/height.png"  alt=""> 28 cm tall</h6>
+                        <h6 class="height"><img src="images/width.png"  alt=""> 10 cm pot</h6>
+                    </div>
+                    <div class="price">
+                        <div class="price-number"> 
+                            <h5 class="dollar">$18</h5>
+                            <h5 class="cent">00</h5>
+                        </div>
+                        <div class="cart-button">
+                            <form action="cart.html" method="get">
+                                <input class="btn" type="image" src="images/shopping-cart.png" alt="button">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div id="sign-up-text1">
+            <h2>Newsletter Sign-up</h2>
+            <p>Stay up to date with our latest products and receive <span>special offers!</span></p>
+        </div>
+        <div class="form1">
+            <input id="input-text" type="text" placeholder="Your email address">
+            <input id="input-img" type="image" src="images/email.png" onmouseover="this.src='images/email2.png'"
+            onmouseout="this.src='images/email.png'" alt="image input">
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="column">
+            <img id="footer-logo" src="images/logo.png" alt="">
+            <h4>Contact</h4>
+            <p><b>Address:</b> 7 Sycamore St, Everett, MA 02149, United States</p>
+            <p><b>Phone:</b> 123 456 7890</p>
+            <p><b>Hours:</b> 9:30 AM - 6:00 PM, Mon - Sat</p>
+            <div class="icon">
+                <p><b>Follow Us</b></p>
+                <a href="https://www.facebook.com/" target="_blank"><img src="images/icons/facebook-app-symbol.png" alt=""></a>
+                <a href="https://twitter.com/?lang=en" target="_blank"><img src="images/icons/twitter.png" alt=""></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="images/icons/instagram.png" alt=""></a>
+                <a href="https://www.pinterest.ca/" target="_blank"><img src="images/icons/pinterest.png" alt=""></a>
+                <a href="https://www.youtube.com" target="_blank"><img src="images/icons/youtube.png" alt=""></a>
+            </div>
+        </div>
+        <div class="column">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery</a>
+            <a href="#">Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="column">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="column">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div id="footer-row1" class="row">
+                <img src="images/icons/vecteezy_badge-google-play-and-app-store-button-download_24170865.png" alt="">
+                <img src="images/icons/badge-google-play-and-app-store-button-download-free-png.png" alt="">
+            </div>
+            <p>Secured Payment Providers</p>
+            <div id="footer-row2" class="row">
+                <img src="images/icons/vecteezy_visa-logo-png-visa-icono-transparente-png_20975570.png" alt="">
+                <img src="images/icons/vecteezy_paypal-transparent-png-paypal-free-png_19909676.png" alt="">
+                <img src="images/icons/Mastercard-logo.svg.png" alt="">
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2023, Travis Pan - Ecommerce Demo Website</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+
+
+</html>

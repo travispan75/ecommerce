@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Ecommerce Website - Shop</title>
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/plant%20(1).png">
+</head>
+
+<body>
+    <section id="header">
+        <a href="#" class="logo"><img src="images/logo.png" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+                <li>
+                    <form style="display: inline" action="cart.html" method="get">
+                        <input class="btn" type="image" src="images/shopping-bag.png" alt="Submit" onmouseover="this.src='images/shopping-bag2.png'"
+                        onmouseout="this.src='images/shopping-bag.png'">
+                    </form>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact-header">
+        <h2>Contact Us</h2>
+        <p>We would love to hear from you!</p>
+    </section> 
+
+    <section id="contact-details" class="section-p1">
+        <div class="details">
+            <span>Want to get in touch?</span>
+            <h2>Visit one of our store/office locations or contact us today</h2>
+            <h3>Head Office</h3>
+            <div id="contact-details-list">
+                <ul>
+                    <li>
+                        <img src="images/icons/location.png" alt="">
+                        <p>7 Sycamore St, Everett, MA 02149, United States</p>
+                    </li>
+                    <li>
+                        <img src="images/icons/mail.png" alt="">
+                        <p>travispan75@gmail.com</p>
+                    </li>
+                    <li>
+                        <img src="images/icons/phone-call.png" alt="">
+                        <p>123 456 7890</p>
+                    </li>
+                    <li>
+                        <img src="images/icons/clock.png" alt="">
+                        <p>Monday to Sunday, 9:00 AM to 5:30 PM</p>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+
+        <div class="google-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2945.6325713724273!2d-71.04957492441092!3d42.414268531675894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3719c5545f03d%3A0x48291a17f735cbdc!2s7%20Sycamore%20St%2C%20Everett%2C%20MA%2002149%2C%20USA!5e0!3m2!1sen!2sca!4v1704755856714!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <section id="form-details" class>
+        <form>
+            <span>Leave a message</span>
+            <h2>Give us some feedback!</h2>
+            <input type="text" placeholder="Your Name">
+            <input type="text" placeholder="E-mail">
+            <input type="text" placeholder="Subject">
+            <textarea cols="30" rows="10" placeholder="Your Message"></textarea>
+            <div class="sent-confirmation">
+                <button type="button" class="standard-button" onclick="confirm()">Submit</button>
+                <img id="confirmation-icon" src="images/1280px-HD_transparent_picture.png" alt="" style="-webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -o-user-select: none; user-select: none;">
+                <p id="confirmation-text"></p>
+            </div>
+            
+        </form>
+
+        <div class="people">
+            <div>
+                <img src="images/person-placeholder-image.png" alt="">
+                <p><span>Jane Doe</span> Senior Marketing Manager <br> Phone: 000 111 2222 <br> Email: travispan75@gmail.com</p>
+            </div>
+            <div>
+                <img src="images/person-placeholder-image.png" alt="">
+                <p><span>Sean Bean</span> Senior Marketing Manager <br> Phone: 000 111 2222 <br> Email: travispan75@gmail.com</p>
+            </div>
+            <div>
+                <img src="images/person-placeholder-image.png" alt="">
+                <p><span>Janet Willaims</span> Senior Marketing Manager <br> Phone: 000 111 2222 <br> Email: travispan75@gmail.com</p>
+            </div>
+            <div>
+                <img src="images/person-placeholder-image.png" alt="">
+                <p><span>Mark Sundy</span> Senior Marketing Manager <br> Phone: 000 111 2222 <br> Email: travispan75@gmail.com</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div id="sign-up-text1">
+            <h2>Newsletter Sign-up</h2>
+            <p>Stay up to date with our latest products and receive <span>special offers!</span></p>
+        </div>
+        <div class="form1">
+            <input id="input-text" type="text" placeholder="Your email address">
+            <input id="input-img" type="image" src="images/email.png" onmouseover="this.src='images/email2.png'"
+            onmouseout="this.src='images/email.png'" alt="input image">
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="column">
+            <img id="footer-logo" src="images/logo.png" alt="">
+            <h4>Contact</h4>
+            <p><b>Address:</b> 7 Sycamore St, Everett, MA 02149, United States</p>
+            <p><b>Phone:</b> 123 456 7890</p>
+            <p><b>Hours:</b> 9:30 AM - 6:00 PM, Mon - Sat</p>
+            <div class="icon">
+                <p><b>Follow Us</b></p>
+                <a href="https://www.facebook.com/" target="_blank"><img src="images/icons/facebook-app-symbol.png" alt=""></a>
+                <a href="https://twitter.com/?lang=en" target="_blank"><img src="images/icons/twitter.png" alt=""></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="images/icons/instagram.png" alt=""></a>
+                <a href="https://www.pinterest.ca/" target="_blank"><img src="images/icons/pinterest.png" alt=""></a>
+                <a href="https://www.youtube.com" target="_blank"><img src="images/icons/youtube.png" alt=""></a>
+            </div>
+        </div>
+        <div class="column">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery</a>
+            <a href="#">Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="column">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="column">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div id="footer-row1" class="row">
+                <img src="images/icons/vecteezy_badge-google-play-and-app-store-button-download_24170865.png" alt="">
+                <img src="images/icons/badge-google-play-and-app-store-button-download-free-png.png" alt="">
+            </div>
+            <p>Secured Payment Providers</p>
+            <div id="footer-row2" class="row">
+                <img src="images/icons/vecteezy_visa-logo-png-visa-icono-transparente-png_20975570.png" alt="">
+                <img src="images/icons/vecteezy_paypal-transparent-png-paypal-free-png_19909676.png" alt="">
+                <img src="images/icons/Mastercard-logo.svg.png" alt="">
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2023, Travis Pan - Ecommerce Demo Website</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+
+</html>

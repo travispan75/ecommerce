@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Playfair+Display&family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+#signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("/images/887559.jpg");
+    background-size: cover;
+    background-position: bottom;
+}
+
+.logo {
+    max-width: 215px;
+    height: auto;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 80px;
+    background: #f9f9f9;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#box {
+    margin-top: -100px;
+    width: 440px;
+    background-color: transparent;
+    padding: 20px 40px 30px 40px;
+    border-radius: 10px;
+    border: 2px solid white;
+    backdrop-filter: blur(10px);
+    color: white;
+}
+
+#box h1 {
+    text-align: center;
+    font-size: 36px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+#box .input-box {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(60, 60, 52);
+    margin: 10px 0px;
+}
+
+#box .input-box {
+    color: white;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 40px;
+    font-size: 16px;
+    padding: 15px 45px 15px 20px;
+}
+
+#box .input-box::placeholder {
+    color: white;
+}
+
+#back-to-login {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px 15px 0px;
+}
+
+#back-to-login h3 {
+    font-size: 14.5px;
+}
+
+#back-to-login a {
+    text-decoration: none;
+    font-size: 14.5px;
+    color: white;
+    border-bottom: 1px solid white;
+    padding-bottom: 1px;
+}
+
+#box .btn {
+    width: 100%;
+    height: 48px;
+    background-color: white;
+    border: none;
+    border-radius: 40px;
+    outline: none;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+footer #footer-logo {
+    width: 220px;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+footer h4 {
+    color: #696969;
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+
+footer p {
+    font-family: 'Montserrat';
+    color: #696969;
+    font-size: 14px;
+    padding-bottom: 12px;
+    margin: 0;
+}
+
+.icon a img {
+    width: 22px;
+    height: auto;
+    margin-right: 5px;
+}
+
+footer .row {
+    align-items: center;
+    display: flex;
+}
+
+footer #footer-row1 img {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+footer #footer-row2 img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+footer .column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.copyright p {
+    color: #696969;
+    text-align: center;
+}
+
+.copyright {
+    text-align: center;
+    width: 100%;
+}
+
+footer a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    color: #696969;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.error-msg {
+    font-size: 14px;
+    margin-top: 8px;
+    font-weight: 100;
+    color: rgb(211, 84, 84);
+}

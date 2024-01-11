@@ -1,1 +1,1 @@
-#Since the website preview only includes the static part of the frontend, to run this file the command "nodemon src/index" must be entered in the terminal. Node modules must also be downloaded.
+#Since the website preview only includes the static part of the frontend, to run this file the command "nodemon src/index" must be entered in the terminal. Required node modules must also be downloaded.
